@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "masked-autoencoder"
+version = "0.0.1"
+description = "Autoencoder to detect anomalies"
+authors = ["graxel <grazel98@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.*"
+tensorflow = "^2.18.0"
+pydot = "^3.0.4"
+graphviz = "^0.20.3"
+scikit-learn = "^1.6.1"
+matplotlib = "^3.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+package-mode = false
